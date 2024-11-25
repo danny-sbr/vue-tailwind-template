@@ -11,6 +11,8 @@
 - TailwindCSS
 - SASS
 - ESLint + Prettier (程式碼品質工具)
+- Stylelint
+- 套件自動引入工具 (unplugin-auto-import)
 - Vitest (單元測試框架)
 
 
@@ -20,6 +22,7 @@
 - [Vue -Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - Node.js 20+ 版本
 - pnpm 9+ 版本
 
@@ -76,3 +79,6 @@ pnpm test:unit
 - [Vue 3 文件](https://vuejs.org/)
 - [Pinia 文件](https://pinia.vuejs.org/)
 - [TailwindCSS 文件](https://tailwindcss.com/docs)
+- [Stylelint 文件](https://stylelint.io/)
+- [ESLint 文件](https://eslint.org/)
+- [Prettier 文件](https://prettier.io/)
