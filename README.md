@@ -1,41 +1,78 @@
-# ./
+# Vue 3 + Vite 專案模板
 
-This template should help get you started developing with Vue 3 in Vite.
+這是一個使用 Vue 3 和 Vite 建立的專案模板，整合了多項現代前端開發工具。
 
-## Recommended IDE Setup
+## Tech Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3
+- Vite
+- Pinia (狀態管理)
+- Vue Router
+- TailwindCSS
+- SASS
+- ESLint + Prettier (程式碼品質工具)
+- Vitest (單元測試框架)
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 建議的開發環境設定
 
-## Project Setup
+- [VSCode](https://code.visualstudio.com/) 
+- [Vue -Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- Node.js 20+ 版本
+- pnpm 9+ 版本
 
+## 專案設定
+
+安裝依賴：
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### 開發指令
 
+開發環境運行（支援熱重載）：
 ```sh
 pnpm dev
 ```
 
-### Compile and Minify for Production
-
+建置生產版本：
 ```sh
 pnpm build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+預覽建置結果：
+```sh
+pnpm preview
+```
 
+### 程式碼品質與測試
+
+執行程式碼格式化：
+```sh
+pnpm format
+```
+
+執行 ESLint 檢查與自動修復：
+```sh
+pnpm lint
+```
+
+執行單元測試：
 ```sh
 pnpm test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## 專案結構說明
 
-```sh
-pnpm lint
-```
+- `/src` - 原始碼目錄
+- `/public` - 靜態資源目錄
+- `/tests` - 測試檔案目錄
+
+## 相關文件
+
+- [Vite 設定參考](https://vitejs.dev/config/)
+- [Vue 3 文件](https://vuejs.org/)
+- [Pinia 文件](https://pinia.vuejs.org/)
+- [TailwindCSS 文件](https://tailwindcss.com/docs)
