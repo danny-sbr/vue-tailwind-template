@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import AutoImport from 'unplugin-auto-import/vite'
+import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -18,6 +19,7 @@ export default defineConfig({
         filepath: './.eslintrc-auto-import.mjs', // 設定自動生成的 ESLint 規則檔案路徑，預設為 `./.eslintrc-auto-import.json`
       },
     }),
+    tailwindcss(),
   ],
   server: {
     port: 3809,
