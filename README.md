@@ -13,6 +13,7 @@
 - ESLint + Prettier (程式碼品質工具)
 - Stylelint
 - 套件自動引入工具 (unplugin-auto-import)
+- 自動排序 import 語句的 Prettier plugin (@ianvs/prettier-plugin-sort-imports)
 - Vitest (單元測試框架)
 
 
